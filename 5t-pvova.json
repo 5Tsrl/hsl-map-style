@@ -9,7 +9,7 @@
     "sources": {
         "vector": {
             
-            "url": "http://localhost:8080/data/osm2vectortiles.json",
+            "url": "http://localhost:8081/turin-vector-map",
             "type": "vector"
         }
     },
