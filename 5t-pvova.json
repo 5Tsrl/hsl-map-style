@@ -9,7 +9,7 @@
     "sources": {
         "vector": {
             
-            "url": "http://localhost:8081/turin-vector-map",
+            "url": "http://localhost:8080/turin-vector-map",
             "type": "vector"
         }
     },
