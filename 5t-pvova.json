@@ -13,8 +13,8 @@
             "type": "vector"
         }
     },
-    "sprite": "http://localhost:3000/sprite",
-    "glyphs": "http://localhost:3000/fontstack/{fontstack}/{range}.pbf",
+    "sprite": "file:///opt/hsl-map-server/node_modules/hsl-map-style/sprite",
+    "glyphs": "file:///opt/hsl-map-server/node_modules/hsl-map-style/fontstack/{fontstack}/{range}.pbf",
     "layers": [
       
         {
