@@ -30,7 +30,7 @@
     "pitch": 0,
     "sources": {
         "vector": {
-            "url": "http://api.digitransit.fi/map/v1/hsl-vector-map/index.json",
+            "url": "http://api.digitransit.fi/map/v1/turin-vector-map/index.json",
             "type": "vector"
         }
     },
