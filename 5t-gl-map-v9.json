@@ -30,9 +30,9 @@
     "pitch": 0,
     "sources": {
         "vector": {
-            "url": "http://api.digitransit.fi/map/v1/hsl-vector-map/index.json",
+            "url": "http://api.digitransit.fi/map/v1/turin-vector-map/index.json",
             "type": "vector"
-        },
+        }
     },
     "sprite": "https://raw.githubusercontent.com/HSLdevcom/hsl-map-style/master/sprite",
     "glyphs": "http://localhost:8000/fontstack/{fontstack}/{range}.pbf",
