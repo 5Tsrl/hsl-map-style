@@ -27,6 +27,6 @@ app.get("/style.json", function (req, res) {
   res.send(style);
 });
 
-app.listen(3000, function () {
-  console.log("Listening at localhost:3000");
+app.listen(3001, function () {
+  console.log("Listening at localhost:3001");
 });

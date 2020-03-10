@@ -2,37 +2,6 @@
 # yarn lockfile v1
 
 
-"@mapbox/fontmachine@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@mapbox/fontmachine/-/fontmachine-0.2.1.tgz#ed4f9d6d0d312c09c4538a0a924e1bf3e3818708"
-  dependencies:
-    fontnik "~0.5.0"
-    queue-async "^1.0.7"
-
-"@mapbox/shelf-pack@~3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@mapbox/shelf-pack/-/shelf-pack-3.0.0.tgz#44e284c8336eeda1e9dbbb1d61954c70e26e5766"
-
-"@mapbox/spritezero-cli@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@mapbox/spritezero-cli/-/spritezero-cli-2.0.0.tgz#7399987dffec6e8161a276bff9564089f1f90a55"
-  dependencies:
-    "@mapbox/spritezero" "~4.0.0"
-    json-stable-stringify "^1.0.1"
-    minimist "^1.2.0"
-    multiline "^1.0.2"
-    queue-async "^1.2.1"
-
-"@mapbox/spritezero@~4.0.0":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@mapbox/spritezero/-/spritezero-4.0.1.tgz#04b66d4a6e5f07a650a5cde92b3cb849572fd6e2"
-  dependencies:
-    "@mapbox/shelf-pack" "~3.0.0"
-    json-stable-stringify "^1.0.1"
-    mapnik "3.5.14"
-    queue-async "^1.2.1"
-    xtend "^4.0.1"
-
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -790,16 +759,6 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-fontnik@~0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/fontnik/-/fontnik-0.5.0.tgz#fb081dd3c3a9280fe9b572476c87fed4c406783c"
-  dependencies:
-    glob "^7.1.1"
-    minimist "^0.2.0"
-    nan "^2.1.0"
-    node-pre-gyp "^0.6.31"
-    queue-async "^1.0.7"
-
 for-in@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -889,10 +848,6 @@ generate-object-property@^1.1.0:
   dependencies:
     is-property "^1.0.0"
 
-get-stdin@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
-
 getpass@^0.1.1:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
@@ -912,7 +867,7 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1:
+glob@^7.0.0, glob@^7.0.3, glob@^7.0.5:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
   dependencies:
@@ -1353,19 +1308,6 @@ map-stream@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
 
-mapnik-vector-tile@~1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/mapnik-vector-tile/-/mapnik-vector-tile-1.2.2.tgz#42795ca211dd274a9a4af5bf6cfe3b0bfe0ba243"
-
-mapnik@3.5.14:
-  version "3.5.14"
-  resolved "https://registry.yarnpkg.com/mapnik/-/mapnik-3.5.14.tgz#632bd6635c72c0214a707549309ba416594afff7"
-  dependencies:
-    mapnik-vector-tile "~1.2.2"
-    nan "~2.4.0"
-    node-pre-gyp "~0.6.30"
-    protozero "~1.4.2"
-
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -1420,10 +1362,6 @@ minimist@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
-minimist@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.2.0.tgz#4dffe525dae2b864c66c2e23c6271d7afdecefce"
-
 minimist@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
@@ -1446,23 +1384,13 @@ ms@0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.3.tgz#708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
 
-multiline@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/multiline/-/multiline-1.0.2.tgz#69b1f25ff074d2828904f244ddd06b7d96ef6c93"
-  dependencies:
-    strip-indent "^1.0.0"
-
 mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-nan@^2.1.0, nan@^2.3.0:
+nan@^2.3.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
-
-nan@~2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -1478,7 +1406,7 @@ nested-error-stacks@^1.0.0:
   dependencies:
     inherits "~2.0.1"
 
-node-pre-gyp@^0.6.29, node-pre-gyp@^0.6.31, node-pre-gyp@~0.6.30:
+node-pre-gyp@^0.6.29:
   version "0.6.34"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.6.34.tgz#94ad1c798a11d7fc67381b50d47f8cc18d9799f7"
   dependencies:
@@ -1708,10 +1636,6 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
-protozero@~1.4.2:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/protozero/-/protozero-1.4.5.tgz#80eaa80a4f9c751465c4cb2620d8233b50ec1aff"
-
 proxy-addr@~1.1.3:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-1.1.4.tgz#27e545f6960a44a627d9b44467e35c1b6b4ce2f3"
@@ -1732,10 +1656,6 @@ punycode@^1.4.1:
 qs@6.4.0, qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
-
-queue-async@^1.0.7, queue-async@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/queue-async/-/queue-async-1.2.1.tgz#0582e01dae253258cf576fc2a35db96fca847f6f"
 
 randomatic@^1.1.3:
   version "1.1.6"
@@ -2056,12 +1976,6 @@ strip-bom@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
 
-strip-indent@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-1.0.1.tgz#0c7962a6adefa7bbd4ac366460a638552ae1a0a2"
-  dependencies:
-    get-stdin "^4.0.1"
-
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
@@ -2247,6 +2161,6 @@ xdg-basedir@^2.0.0:
   dependencies:
     os-homedir "^1.0.0"
 
-xtend@^4.0.0, xtend@^4.0.1:
+xtend@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
